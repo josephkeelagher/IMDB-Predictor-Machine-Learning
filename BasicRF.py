@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 from sklearn.ensemble import RandomForestClassifier
@@ -50,6 +49,7 @@ def main():
     # Standardise data
     standardiser = StandardScaler()
     standardised_X = standardiser.fit_transform(X)
+    standardised_test_df = standardiser.fit_transform(test_df)
 
     # Split training data into test and train partitions
     X_train, X_test, y_train, y_test = train_test_split(standardised_X, y, test_size=0.2)
@@ -68,7 +68,7 @@ def main():
     print("Test Split Accuracy:", test_accuracy)
 
     # Make test set predictions for Kaggle
-    predictions = rf.predict(test_df)
+    predictions = rf.predict(standardised_test_df)
     df_predictions = pd.DataFrame({'id': id_col, 'imdb_score_binned': predictions})
     df_predictions.to_csv('predictions.csv', index=False)
 
