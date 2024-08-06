@@ -83,22 +83,26 @@ To customize this project, you will need:
    cd IMDB-Predictor-Machine-Learning
    ```
 
-3. Open the project files in Jupyter Notebook
+3. Install required dependencies:
+   ```sh
+   pip install scikit-learn pandas matplotlib
+   ```
+
+5. Open the project files in Jupyter Notebook
    Ensure you have Jupyter Notebook installed by doing the following command:
 
    ```sh
    pip install notebook
    ```
 
-4. Run the Notebooks:
-
+6. Run the Notebooks:
 - For each notebook file:
 - Open the file in Jupyter Notebook, Click 'Run' on each cell from top to bottom.
   This will execute the code step-by-step allowing you to see the construction process of each model.
 
-5. Review the Scientific Report included in the repository.
+6. Review the Scientific Report included in the repository.
 
-6. Modify and Tweak as needed! Test different parameters and datasets.
+7. Modify and Tweak as needed! Test different parameters and datasets.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
