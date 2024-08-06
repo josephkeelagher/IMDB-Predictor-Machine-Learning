@@ -50,6 +50,7 @@
     <img src="https://imgur.com/3Fmlv2t" alt="Repo Thumbnail">
   </a>
 </div>
+[Imgur](https://imgur.com/3Fmlv2t)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
