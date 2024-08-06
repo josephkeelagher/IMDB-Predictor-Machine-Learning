@@ -41,16 +41,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-<div align="center">
-  <a href="https://github.com/josephkeelagher/IMDB-Predictor-Machine-Learning">
-    <img src="https://imgur.com/WWfjT39" alt="Prediction Accuracy">
-  </a>
-  <a href="https://github.com/josephkeelagher/IMDB-Predictor-Machine-Learning">
-    <img src="https://imgur.com/3Fmlv2t" alt="Repo Thumbnail">
-  </a>
-</div>
-[Imgur](https://imgur.com/3Fmlv2t)
+![imdb-movie-rating-thumbnail](https://github.com/user-attachments/assets/08a0bdf1-039b-4368-a318-ea70a4d86187)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
